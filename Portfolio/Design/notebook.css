@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Alex Brush';
+    src: url('Fonts/AlexBrush-Regular.ttf') format('truetype'); /* for older browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Lemon Milk';
+    src: url('Fonts/Lemon Milk.otf') format('opentype'); /* for older browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'fancy';
+    src: url('Fonts/fancy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'regular';
+    src: url('Fonts/regular.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  
+  body {
+    background-image: url('../Design/Pics/wavyLines.avif');
+    background-color: rgb(230, 189, 223);
+   
+}
+.sticky-footer {
+    font-family: 'Regular';
+    position: fixed;
+    font-size: 10vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 10px 0;
+    background: transparent;
+}
+section >ul{
+    list-style-type: none;
+    color: #597aaa;
+    font-size: 6vh;
+    text-align: center;
+    font-family: 'regular';
+}
+
+.m { color: #581845; }
+.y { color: #900C3F; }
+.s { color: #C70039; }
+.k { color: #FF5733; }
+.i, .l1, .l2 { color: #FFC300; } 
+.s2 { color: #C70039; }
+
+.space {
+    margin: 0 4px; 
+}
+.image-gallery {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.image-container img {
+    width: auto; 
+    max-width: 40vh;
+    height: auto;
+    margin-bottom: 10px;
+}
+p{
+    font-family: 'regular' ;
+    font-weight: bold;
+    font-size: 4vh;
+    color: #597aaa
+}
+a{
+    text-decoration: solid;
+    font-family: 'fancy';
+    font-size: 3vh;
+    align-items: center;
+}
+header {
+    background-color: transparent !important;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'fancy';
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ccc;
+}
+.paragraph-resume {
+    margin: 0 auto; 
+    padding: 0 20px; 
+    max-width: 800px;
+}
+
+  

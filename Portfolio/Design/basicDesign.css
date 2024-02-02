@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Alex Brush';
+    src: url('Fonts/AlexBrush-Regular.ttf') format('truetype'); /* for older browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Lemon Milk';
+    src: url('Fonts/Lemon Milk.otf') format('opentype'); /* for older browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'fancy';
+    src: url('Fonts/fancy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'regular';
+    src: url('Fonts/regular.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  
+  body {
+    background-image: url('../Design/Pics/wavyLines.avif');
+    background-color: rgb(230, 189, 223);
+   
+}
+.main-body, section {
+    font-family: 'regular' ;
+    color: #597aaa;
+    font-size: 30px;
+}
+.main-body {
+    text-align: center;
+  }
+  
+  .main-body div, .main-body img {
+    margin: 0 auto;
+  }
+  
+
+header {
+    background-color: transparent !important;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'fancy';
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ccc;
+}
